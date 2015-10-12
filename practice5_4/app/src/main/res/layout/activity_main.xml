@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <fragment
+        android:id="@+id/fragment_right"
+        android:name="com.example.jini.practice5_4.FragmentList"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/fragment_left"
+        android:name="com.example.jini.practice5_4.FragmentText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_text" />
+
+</LinearLayout>

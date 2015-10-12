@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">practice5_3</string>
+    <color name="blue">#0000FF</color>
+    <color name="yelow">#FFFF00</color>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
