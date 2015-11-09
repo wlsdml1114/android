@@ -16,10 +16,10 @@ public class MyAlarmService extends Service{
     public void onCreate(){
         Toast.makeText(this,"MyAlarmService.onCreate()",Toast.LENGTH_LONG).show();
     }
-    @Nullable
     @Override
     public IBinder onBind(Intent intent) {
         Toast.makeText(this,"MyAlarmService.onBind()",Toast.LENGTH_LONG).show();
+
         return null;
     }
     @Override
